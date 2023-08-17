@@ -1,0 +1,75 @@
+
+  467  mkdir checkpoint
+  468  cd checkpoint
+  469  git init
+  470  git remote add origin https://github.com/npereira23/Checkpoint-NahuelPereira-16-ago.2023.git
+  471  touch main.js
+  472  touch index.html
+  473  ls
+  474  git add .
+  475  git commit -m "archivos nuevos"
+  476  git status
+  477  git branch feature
+  478  git branch
+  479  git checkout feature
+  480  git branch
+  481  mkdir Hardware
+  482  mkdir Software
+  483  mkdir SeguridadInformatica
+  484  ls
+  485  cd Hardware
+  486  touch resumen.txt
+  487  cd ..
+  488  cd Software
+  489  touch resumen.txt
+  490  cd ..
+  491  toch SeguridadInformatica
+  492  touch SeguridadInformatica
+  493  ls
+  494  cd SeguridadInformatica
+  495  ls
+  496  touch resumen.txt
+  497  git status
+  498  cd ..
+  499  git status
+  500  git add .
+  501  git status
+  502  git commit -m "Agregado directorios con contenido"
+  503  git push -u feature
+  504  git branch
+  505  git checkout
+  506  git branch
+  507  git checkout master
+  508  git branch
+  509  git push -u origin feature
+  510  git branch
+  511  ls
+  512  git checkout feature
+  513  git branch
+  514  ls
+  515  rm index.html
+  516  rm main.js
+  517  ls
+  518  git add .
+  519  git commit -m "correcion de errores"
+  520  git push -u origin feature
+  521  git checkout master
+  522  git branch
+  523  ls
+  524  mv main.js resumenHardware.txt
+  525  ls
+  526  mv index.html resumenSoftware.txt
+  527  ls
+  528  nano resumenSoftware.txt
+  529  nano resumenHardware.txt
+  530  history
+  531  ls
+  532  touch comandos.txt
+  533  history 467-530 > comandos.txt
+  534  history 530 > comandos.txt
+  535  cat comandos.txt
+  536  man history
+  537  history 467 530 > comandos.txt
+  538  history 467 530 | "rango de comandos" > comandos.txt
+  539  ls
+  540  history 530 > comandos.txt
